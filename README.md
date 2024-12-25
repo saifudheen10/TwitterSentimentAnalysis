@@ -8,7 +8,7 @@ Remove Punctuation: Strip punctuation marks (e.g., !, ?, ,, .) from the text.
 Remove Stop Words: Eliminate common words like "the", "and", "is" that don’t carry significant meaning.
 Remove Emojis: Remove emojis or convert them to their text equivalents to avoid confusion.
 Remove URLs: Remove URLs (e.g., http://example.com) that are irrelevant to sentiment analysis.
-Lowercase Conversion: Convert all text to lowercase for uniformity.                                                                        2. TF-IDF Vectorization
+Lowercase Conversion: Convert all text to lowercase for uniformity                                                                         2. TF-IDF Vectorization
 Convert the cleaned text into numerical features using the TF-IDF method:
 Term Frequency-Inverse Document Frequency (TF-IDF): A technique that transforms text into numerical data by evaluating word frequency and its importance across the entire dataset.
 Vectorize the Data: Use TfidfVectorizer to convert preprocessed tweet text into feature vectors suitable for machine learning.
